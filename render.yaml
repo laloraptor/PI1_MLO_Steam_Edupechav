@@ -1,14 +1,11 @@
-# render.yaml
-
-services:
+  
+  services:
   - name: ProyectoAPI
-    buildCommand: |
-      pip install -r requirements.txt
-      /opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
+    buildCommand: ./actualizar_render.sh
     startCommand: uvicorn main:app --host 0.0.0.0 --port 8000
     env: 
       - key: KEY
         value: VALUE
     filesystem:
       - name: data  
-        mountPath: /Data
+        mountPath: ./
