@@ -141,3 +141,6 @@ def recomendacion_juego(nombre_juego: str = Query(...,
     resultado = fe.recomendacion_juego(nombre_juego)
     juegos_recomendados = resultado.tolist()
     return JSONResponse(content={"juegos_recomendados": juegos_recomendados})
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=10000)
