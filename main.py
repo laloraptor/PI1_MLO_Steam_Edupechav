@@ -47,14 +47,15 @@ def home():
             <p>Visita mi perfil en <a href="https://www.linkedin.com/in/eduardo-p%C3%A9rez-chavarr%C3%ADa-0962b1140/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin"></a></p>
             <p>Te invito a visitar mi perfil de Github <a href="https://github.com/laloraptor"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github"></a></p>
             <p style="color: #ff7e00; font-size: 20px; font-weight: bold; margin-top: 40px;">Estas son las consultas que podrás realizar al interactuar con la API</p>
-            <ul>
-                <li><strong>Obtener el año con más horas jugadas para un género</strong> </li>
-                <li><strong>Obtener al usuario con más horas jugadas por género</strong> </li>
-                <li><strong>Obtener el top 3 de juegos más recomendados por año</strong> </li>
-                <li><strong>Obtener el top 3 de desarrolladoras menos recomendadas por año</strong> </li>
-                <li><strong>Obtener la cantidad de valoraciones negativas, neutrales y positivas por desarrolladora</strong> </li>
-                <li><strong>Modelo de Aprendizaje Automático: Recomendación de juegos</strong> </li>
-            </ul>
+<ul>
+    <li><strong>Obtener el año con más horas jugadas para un género</strong></li>
+    <li><strong>Obtener al usuario con más horas jugadas por género</strong></li>
+    <li><strong>Obtener el top 3 de juegos más recomendados por año</strong></li>
+    <li><strong>Obtener el top 3 de desarrolladoras menos recomendadas por año</strong></li>
+    <li><strong>Obtener la cantidad de valoraciones negativas, neutrales y positivas por desarrolladora</strong></li>
+    <li><strong>Modelo de Aprendizaje Automático: Recomendación de juegos</strong></li>
+</ul>
+<a href="http://34.133.172.102:10000/docs" target="_blank">Ver documentación de la API</a>
         </body>
     </html>
     '''
