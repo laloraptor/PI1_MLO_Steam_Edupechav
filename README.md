@@ -61,7 +61,7 @@ EL desarrollo de las funciones y la construcción de sus bases se encuentra en [
 
 ## Implementación y Despliegue
 
-Finalmente, la funcionalidad de análisis de sentimientos y recomendaciones generada se expuso a través de una API implementada sobre el potente framework FastAPI de Python. Fue puesta a disposición en google cloud y puede ser consultada en el siguiente enlace (aunque la disponibilidad del mismo puede variar) . [Accede a la API aquí](http://34.133.172.102:10000/docs). Del mismo modo, puede ejecutarse en local utilizando uvicorn, para ello se proporcionan los archivos [main.py](main.py) y [functionsedu.py](functionsedu.py)
+Finalmente, la funcionalidad de análisis de sentimientos y recomendaciones generada se expuso a través de una API implementada sobre el potente framework FastAPI de Python. Fue puesta a disposición en google cloud y puede ser consultada en el siguiente enlace (aunque la disponibilidad del mismo puede variar) . [Accede a la API aquí](http://34.133.172.102:10000/docs). Del mismo modo, puede ejecutarse en local utilizando uvicorn, para ello se proporcionan los archivos [main.py](main.py) y [functionsedu.py](functionsedu.py). Se recomienda intentar varias veces. Por cuestiones de robustés y limitaciones no siempre la ejecución funciona a la primera. EL video de su fucionamiento se puede apreciar [aquí] (https://youtu.be/ZuMUvXwCX-A)
 
 
 ## Conclusión
