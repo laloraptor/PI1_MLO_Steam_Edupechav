@@ -55,7 +55,8 @@ def home():
     <li><strong>Obtener la cantidad de valoraciones negativas, neutrales y positivas por desarrolladora</strong></li>
     <li><strong>Modelo de Aprendizaje Automático: Recomendación de juegos</strong></li>
 </ul>
-<a href="http://34.133.172.102:10000/docs" target="_blank">Ver documentación de la API</a>
+<a href="http://34.133.172.102:10000/docs" target="_blank">Las consultas por internet pueden realizarse aquí</a>
+<a href="http://127.0.0.1:10000/docs" target="_blank">Las consultas de la impplementación local pueden realizarse aquí</a>/
         </body>
     </html>
     '''
