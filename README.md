@@ -79,10 +79,10 @@ EL desarrollo de las funciones y la construcción de sus bases se encuentra en [
 
 ## Implementación y Despliegue
 
-La API fue implementada con FastAPI y desplegada en Google Cloud. Puede ser consultada [aquí](http://34.133.172.102:10000/) aunque la disponibilidad puede variar. También se proporcionan los archivos [main.py](main.py) y [functionsedu.py](functionsedu.py) para ejecutarse localmente con uvicorn.  
+La API fue implementada con FastAPI y desplegada en Google Cloud. Puede ser consultada [aquí](http://34.133.172.102:10000/) aunque la disponibilidad puede variar; del mismo modo, debido a que el protocolo es http y no https se recomienda copiar la dirección completa http://34.133.172.102:10000 y pegarla en el navegador, ya que algunos navegadores sustituyen automaticamente el http por https y de ese modo la página no va a cargar. También se proporcionan los archivos [main.py](main.py) y [functionsedu.py](functionsedu.py) para ejecutarse localmente con uvicorn.  
 
 Dado que se trata de una demostración inicial, la API puede presentar intermitencias por lo que se recomienda reintentar la ejecución. El video de funcionamiento está [aquí](https://youtu.be/EunBt0w5xjQ). 
-
+http://34.133.172.102:10000/docs
 
 ## Conclusión  
 
